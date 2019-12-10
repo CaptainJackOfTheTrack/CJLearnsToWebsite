@@ -1,0 +1,16 @@
+.description{
+    font-family: 'Roboto Mono', monospace;
+}
+.gallery-image{
+    display: block;
+    margin: 10px auto;
+
+    /* padding: 20px 30px 40px 50px; */
+
+    max-width: 90%;
+    
+}
+
+.hella-small-image{
+    width: 100%!important;
+}
