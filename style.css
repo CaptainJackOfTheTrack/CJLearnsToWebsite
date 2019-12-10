@@ -14,3 +14,31 @@
 .hella-small-image{
     width: 100%!important;
 }
+
+/* A link that has not been visited */
+a:link {
+    text-decoration: none;
+    color: #2176FF;
+}
+/* A link that has been visited */
+a:visited {
+    text-decoration: none;
+    color: #33A1FD;
+}
+/* A link that is hovered on */
+a:hover {
+    color: #FDCA40;
+}
+/* A link that is selected */
+a:active {
+    color: #F79824;
+}
+.btn-green{
+    margin: 100px;
+    background-color: #458B00;
+    color: #ffffff;
+}
+
+.green-btn-container{
+    margin: 20px;
+}
