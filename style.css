@@ -1,6 +1,19 @@
+/* Fonts*/
 .description{
     font-family: 'Roboto Mono', monospace;
 }
+
+.Header-Links{
+    color: #FFFFFF!important;
+    font-size: 150% !important;
+    margin: 10px;
+    /* need to find out how to center this*/
+
+}
+.Header-Links:hover{
+    color: #8510d8!important;
+}
+/* Images */
 .gallery-image{
     display: block;
     margin: 10px auto;
@@ -11,10 +24,29 @@
     
 }
 
+.Banner{
+    display: block;
+    max-width: 90%;
+    margin: 5px auto;
+
+}
 .hella-small-image{
     width: 100%!important;
 }
 
+/* Tag default fiddling */
+
+body{
+    background-color: #23272A
+}
+
+p{
+    color: #FFFFFF;
+    font-size: 100%;
+}
+h1{
+    color: #FFFFFF;
+}
 /* A link that has not been visited */
 a:link {
     text-decoration: none;
@@ -33,12 +65,25 @@ a:hover {
 a:active {
     color: #F79824;
 }
+
 .btn-green{
-    margin: 100px;
-    background-color: #458B00;
+    margin: 10px;
+    background-color: #FFFFFF;
     color: #ffffff;
+    max-width: 15%;
 }
 
 .green-btn-container{
     margin: 20px;
 }
+
+.button {
+    background-color: #23272A;
+    color: #FFFFFF;
+
+}
+
+.button:hover {
+    background-color: #8510d8;
+    color: white;
+  }
